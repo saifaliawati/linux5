@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# TODO: If you have your own Client ID and secret, put down their values here:
+#  own Client ID and secret:
 CLIENT_ID="FREE_TRIAL_ACCOUNT"
 CLIENT_SECRET="PUBLIC_SECRET"
 
-# TODO: Specify your translation requirements here:
+#  translation :
 fromLang="en"
 toLang="hi"
 text="Let's have some fun!"
@@ -24,4 +24,4 @@ curl -X POST \
      -d "$jsonPayload"   \
      http://api.whatsmate.net/v1/translation/translate
 
-echo -e "\n=== END OF DEMO ==="
+echo -e 
